@@ -8,11 +8,14 @@ body {
 h1 {
     margin: 0;
 }
+ul {
+    padding-left: 0;
+}
 /* navbar */
 
 .logo img {
-    max-width: 100px;
-    min-width: 100px;
+    max-width: 70px;
+    min-width: 70px;
   }
   
   .navbar {
@@ -45,6 +48,10 @@ h1 {
     .hamburger {
       display: inline-block;
     }
+    .logo img {
+        max-width: 50px;
+        min-width: 50px;
+      }
   }
   .hamburger-line {
     background: #272727;
@@ -263,10 +270,10 @@ h1 {
     height: 30vh;
   }
   .headingText {
-    font-size: 36px;
+    font-size: 32px;
   }
   .statements p {
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 
@@ -374,7 +381,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-  
+    padding: 10px 10px;
     gap: 20px;
     flex-wrap: wrap;
 }
